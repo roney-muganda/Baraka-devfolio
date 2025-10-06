@@ -1,17 +1,12 @@
 services:
-  - type: web
+  - type: static
     name: baraka-devfolio
-    runtime: node
-    plan: free
     buildCommand: |
       npm install
       chmod +x ./node_modules/.bin/vite || true
       npx vite build
-    startCommand: npx vite preview --port $PORT
-    buildFilter:
-      paths:
-        - '**/*'
+    publishPath: dist
     envVars:
       - key: NODE_VERSION
         value: 22.16.0
-    staticPublishPath: dist
+
