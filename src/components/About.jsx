@@ -1,4 +1,3 @@
-// File: src/components/About.jsx
 import { motion, useScroll, useTransform } from "framer-motion"
 import { useRef } from "react"
 import profilePic from "../assets/image copy.png" 
@@ -20,21 +19,21 @@ export default function About() {
       style={{ opacity, y }}
       className="relative overflow-hidden bg-white py-24"
     >
-      {/* Parallax background */}
+      
       <motion.div
         className="absolute inset-0 bg-gradient-to-br from-gray-50 via-white to-gray-100"
         animate={{ y: [0, 20, 0] }}
         transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
       />
 
-      {/* Animated top divider */}
+      
       <motion.div
         className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-gray-200/80 to-transparent"
         animate={{ opacity: [0.6, 1, 0.6] }}
         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
       />
 
-      {/* Content */}
+      
       <div className="relative container mx-auto px-6 flex flex-col md:flex-row items-center gap-14 z-10">
         <motion.div
           className="relative md:w-1/2 flex justify-center"
@@ -59,7 +58,7 @@ export default function About() {
           </motion.div>
         </motion.div>
 
-        {/* Text content */}
+        
         <motion.div
           className="md:w-1/2 text-center md:text-left"
           initial={{ opacity: 0, x: 50 }}
@@ -88,7 +87,6 @@ export default function About() {
             that both inspire and deliver results.
           </p>
 
-          {/* Skills */}
           <div className="flex flex-wrap justify-center md:justify-start gap-3">
             {["React", "Tailwind", "Java", "Python", "Node.js", "REST APIs"].map(
               (skill, i) => (
@@ -105,7 +103,6 @@ export default function About() {
         </motion.div>
       </div>
 
-      {/* Animated bottom divider */}
       <motion.div
         className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-t from-gray-200/80 to-transparent"
         animate={{ opacity: [0.6, 1, 0.6] }}
