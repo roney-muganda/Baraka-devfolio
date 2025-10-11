@@ -43,7 +43,7 @@ export default function About() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl font-extrabold mb-4 text-gray-800 border-b-4 border-red-500 inline-block pb-2">
-            About Me
+            01 - About Me
           </h2>
           <p className="text-gray-700 leading-relaxed mb-6 text-lg">
             I’m a{" "}
