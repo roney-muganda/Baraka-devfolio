@@ -39,7 +39,7 @@ export default function Experience() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl font-extrabold text-gray-800 border-b-4 border-red-500 inline-block pb-2">
-            01 - My Experience
+            02 - My Experience
           </h2>
           <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
             A quick look at my professional journey, roles, and the milestones
