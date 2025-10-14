@@ -39,7 +39,7 @@ export default function GithubSection() {
           className="mb-10 md:mb-14"
         >
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 border-b-4 border-red-500 inline-block pb-2">
-            03 - GitHub Contributions
+            04 - GitHub Contributions
           </h2>
           <p className="text-gray-600 mt-3 md:mt-4 max-w-2xl mx-auto text-base md:text-lg">
             A snapshot of my open-source activity, coding focus, and projects.
@@ -141,7 +141,7 @@ export default function GithubSection() {
           </a>
         </motion.div>
       </div>
-
+ 
       <motion.div
         className="absolute top-10 left-10 w-60 h-60 bg-red-500/20 rounded-full blur-3xl"
         animate={{ y: [0, -15, 0] }}
