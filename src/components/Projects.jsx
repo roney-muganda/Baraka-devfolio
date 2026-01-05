@@ -45,7 +45,9 @@ export default function Projects() {
               {/* Content Section */}
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white z-10">
                 <h3 className="text-2xl font-bold mb-1">{p.title}</h3>
-                <p className="text-sm text-gray-200 mb-3">{p.description}</p>
+                <p className="text-sm text-gray-200 mb-3 line-clamp-2">
+                  {p.description}
+                </p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {p.tech.map((t, index) => (

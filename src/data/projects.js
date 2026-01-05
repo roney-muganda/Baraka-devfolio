@@ -1,8 +1,16 @@
 import portfolioImg from "../assets/portfolioimg.jpeg"
-import ecommerceImg from "../assets/ecommerce.jpeg"
 import chatImg from "../assets/chat.jpeg"
+import netbazeImg from "../assets/NetBaze.png" 
 
 export const projectsData = [
+  {
+    title: "Netbaze",
+    description: "NetBaze is a full-stack automated platform that bridges the gap between digital payments and restricted USSD-only mobile services. It enables users to purchase exclusive, low-cost data bundles that are typically inaccessible via standard APIs",
+    tech: ["React", "Python"], 
+    link: "https://netbaze-web.vercel.app/", 
+    code: "#",
+    image: netbazeImg,
+  },
   {
     title: "Portfolio Website",
     description: "Modern personal portfolio built with React + Tailwind.",
@@ -10,14 +18,6 @@ export const projectsData = [
     link: "#",
     code: "#",
     image: portfolioImg,
-  },
-  {
-    title: "E-Commerce App",
-    description: "Full-featured MERN stack app with Stripe integration and admin dashboard.",
-    tech: ["MongoDB", "Express", "React", "Node.js"],
-    link: "#",
-    code: "#",
-    image: ecommerceImg,
   },
   {
     title: "Real-time Chat App",
